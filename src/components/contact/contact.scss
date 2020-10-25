@@ -1,0 +1,14 @@
+.Contact__wrapper {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    flex-direction: column;
+    background: #F6D8CE;
+    > button {
+        width: max-content;
+        margin: 10px 0;
+    }
+    > span {
+        padding: 10px 0;
+    }
+}

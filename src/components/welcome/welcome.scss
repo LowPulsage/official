@@ -1,0 +1,11 @@
+.Welcome__wrapper {
+    height: 30vh;
+    background: #CECEF6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    >p {
+        font-size: 20px;
+    }
+}

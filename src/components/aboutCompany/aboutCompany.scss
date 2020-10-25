@@ -1,0 +1,13 @@
+.AboutCompany__wrapper {
+    display: flex;
+    padding: 10px;  
+    width: 100%;
+    white-space: normal;
+    background: #D8D8D8;
+    > div {
+        font-size: 25px;
+        > button {
+            margin: 0 10px;
+        }
+    }
+}
