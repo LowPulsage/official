@@ -41,8 +41,7 @@ const Block = styled.div`
   width: calc(100%-300px);
   height: 60px;
   flex-direction: row;
-  padding: 5px 150px;
-  justify-content: space-between;
+  justify-content: space-around;
 `;
 
 const MainWrapper = styled.div`
