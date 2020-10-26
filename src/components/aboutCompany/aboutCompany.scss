@@ -2,11 +2,18 @@
     display: flex; 
     width: 100%;
     white-space: normal;
-    background: #D8D8D8;
+    background: #ffaeae;
+    flex-wrap: wrap;
     > div {
         font-size: 25px;
+        padding: 10px;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        border: white solid 10px;
         > button {
-            margin: 0 10px;
+            width: min-content;
+            margin-left: auto;
         }
     }
 }

@@ -2,6 +2,12 @@ import styled from "styled-components";
 
 const green = "#29B82E";
 
+const MainWrapper = styled.div`
+  height: 85vh;
+  background: #A9F5F2 url('./img1.jpg');
+  padding-top: 25px;
+`;
+
 const HeaderMenuItem = styled.div`
   height: 100%;
   display: flex;
@@ -42,11 +48,6 @@ const Block = styled.div`
   height: 60px;
   flex-direction: row;
   justify-content: space-around;
-`;
-
-const MainWrapper = styled.div`
-  height: 85vh;
-  background: #A9F5F2 url('./img1.jpg');
 `;
 
 export { HeaderMenuItem, HeaderMenuItemText, Logo, Block, MainWrapper };

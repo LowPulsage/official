@@ -1,13 +1,30 @@
 .Contact__wrapper {
     display: flex;
-    width: 100%;
     flex-direction: column;
-    background: #F6D8CE;
+    background: #eeeeee;
+    padding: 80px 50px;
+    height: 30vh;
+    justify-content: center;
+    border: 3px solid white;
     > button {
         width: max-content;
         margin: 10px 0;
+        border: 1px solid gray;
+        border-radius: 7%;
+        height: 30px;
+        padding: 5px 10px;
+        :hover {
+            box-shadow: 3px 3px 3px red;
+        }
     }
     > span {
+        font-weight: 300;
+        font-size: 22px;
+        opacity: 0.5;
+    }
+    > p {
         padding: 10px 0;
+        font-weight: 300;
+        font-size: 30px;
     }
 }

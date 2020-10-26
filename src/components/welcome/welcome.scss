@@ -1,11 +1,17 @@
 .Welcome__wrapper {
     height: 30vh;
-    background: #CECEF6;
+    background: #464545;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 50px;
+    color: white;
+    >span {
+        font-size: 28px;
+    }
     >p {
-        font-size: 20px;
+        font-size: 35px;
+        font-weight: 600;
+        padding-bottom: 50px;
     }
 }

@@ -5,10 +5,10 @@ export const Contact = () => {
   return (
     <div className="Contact__wrapper">
       <span>WORKING WITH US</span>
-      <span>
+      <p>
         We work for you by working with you. Client satisfaction and quality
         work are our top priorities.
-      </span>
+      </p>
       <button>
         Get in touch
       </button>
