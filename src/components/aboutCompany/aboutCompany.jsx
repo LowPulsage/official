@@ -3,46 +3,44 @@ import "./aboutCompany.scss";
 
 export const AboutCompany = () => {
   return (
-    <div className="AboutCompany__wrapper">
+    <div className="AboutCompany">
       {aboutData.map((item) => (
-        <div>
-            <span>{item.text}</span>
-            <button>{item.button}</button>
+        <div className="AboutCompany__wrapper">
+          <a href="*">
+            <div className="AboutCompany__wrapper-content">
+              <span>{item.text}</span>
+            </div>
+          </a>
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
 const aboutData = [
   {
     route: "",
     text:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda beatae laborum!",
-    button: "link1",
   },
   {
     route: "",
     text:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda beatae laborum!",
-    button: "link2",
   },
   {
     route: "",
     text:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda beatae laborum!",
-    button: "link3",
   },
   {
     route: "",
     text:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda beatae laborum!",
-    button: "link4",
   },
   {
     route: "",
     text:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus assumenda beatae laborum!",
-    button: "link5",
   },
 ];

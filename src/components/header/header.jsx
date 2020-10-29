@@ -8,7 +8,6 @@ import {
 } from "./header.styled";
 import { headerItems } from "./header-data";
 import logo from "../../img/logo-wtt-w.svg";
-import search from "../../img/search.png";
 
 export const Header = () => {
   return (

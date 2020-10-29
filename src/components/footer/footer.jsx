@@ -10,11 +10,11 @@ export const Footer = () => {
       </div>
       <div className="Footer__block">
         <span>Follow</span>
-        <span>WS link</span>
+        <span><a href="*">WebSite Link</a></span>
       </div>
       <div className="Footer__block">
         <span>CONTACT</span>
-        <span>email@email.com</span>
+        <span><a href="*">IT-Life@gmail.com</a> / +380443123441</span>
       </div>
     </div>
   )

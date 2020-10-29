@@ -1,19 +1,25 @@
-.AboutCompany__wrapper {
+.AboutCompany {
     display: flex; 
     width: 100%;
     white-space: normal;
-    background: #ffaeae;
+    // background: #ffaeae;
     flex-wrap: wrap;
-    > div {
+    padding: 10px 0;
+    .AboutCompany__wrapper {
         font-size: 25px;
-        padding: 10px;
         display: flex;
-        flex: 1;
-        flex-direction: column;
-        border: white solid 10px;
-        > button {
-            width: min-content;
-            margin-left: auto;
+        width: 33.33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >a {
+            text-decoration: none;
+        }
+        .AboutCompany__wrapper-content {
+            padding: 50px;
+            border: 20px solid white;
+            background: rgb(95, 43, 43);
+            color: white;
         }
     }
 }
