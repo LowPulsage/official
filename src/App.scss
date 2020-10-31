@@ -153,29 +153,17 @@ a {
         height: 25px;
         margin-right: 20px;
       }
-      > span {
+      .Header__will-you{
         font-size: 20px;
+        &:hover {
+          color: #6b6b6b;
+        }
       }
     }
     .frame__title-links {
       display: flex;
       justify-content: space-evenly;
       width: 800px;
-        // &::after {
-        //   position: absolute;
-        //   bottom: 0;
-        //   left: 0;
-        //   display: block;
-        //   width: 0;
-        //   height: 2px;
-        //   background-color: green;
-        //   content: "";
-        //   transition: all 500ms cubic-bezier(0.173, 0.883, 0.3, 1.073) 0s;
-        // }
-        // &:hover::after {
-        //   width: 100%;
-        //   transition: all 500ms cubic-bezier(0.173, 0.883, 0.3, 1.073) 0s;
-        // }
     }
   }
   .frame__title {

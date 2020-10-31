@@ -64,9 +64,6 @@ function Body() {
         </div>
         <div className="content">
           <Switch>
-            {/* <Route exact path="/">
-              <Redirect to="/panna" />
-            </Route> */}
             <Route exact path="/">
               <AppCont scene={1} />
             </Route>
@@ -79,11 +76,6 @@ function Body() {
     </Router>
   )
 }
-
-// render(<Body />, document.querySelector('#root'))
-
-
-
 
 function App() {
   return (
