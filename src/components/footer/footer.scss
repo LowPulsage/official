@@ -2,13 +2,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    min-height: 10vh;
     background-color: rgb(236, 236, 236);
     color: black;
+    padding: 50px 0;
+    &:hover {
+        background: rgb(230, 230, 230);
+    }
     .Footer__block {
         display: flex;
         flex-direction: column;
-        align-items: center;
         > :first-child {
             text-transform: uppercase;
         }
@@ -20,10 +23,8 @@
                 color: green;
                 transition: 0.8s;
                 &:hover {
-                    color: black;
-                    box-shadow: 0 0 5px gray;
-                    font-size: 20px;
-                    transition: 0.8s;
+                    color: rgb(165, 47, 47);
+                    transition: 0.4s;
                 }
             }
         }

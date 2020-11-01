@@ -1,12 +1,14 @@
 .Contact__wrapper {
     display: flex;
     flex-direction: column;
-    background: #eeeeee;
+    background: rgb(236, 236, 236);
     padding: 80px 50px;
-    height: 30vh;
+    min-height: 50vh;
     justify-content: center;
-    border: 3px solid white;
     color: black;
+    &:hover {
+        background: rgb(230, 230, 230);
+    }
     > button {
         width: max-content;
         border: 4px solid black;

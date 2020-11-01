@@ -11,6 +11,9 @@ export const Welcome = () => {
         dignissimos asperiores facilis totam ullam culpa voluptates. Quasi,
         officiis vel.
       </p>
+      <button>
+        Our expertise
+      </button>
     </div>
   );
 };

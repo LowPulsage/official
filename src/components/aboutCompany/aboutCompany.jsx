@@ -6,7 +6,7 @@ export const AboutCompany = () => {
     <div className="AboutCompany">
       {aboutData.map((item) => (
         <div className="AboutCompany__wrapper">
-          <a href="*">
+          <a href="/">
             <div className="AboutCompany__wrapper-content">
               <span>{item.text}</span>
             </div>
