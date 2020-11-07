@@ -8,6 +8,7 @@
   "dependencies": {
     "@react-three/cannon": "^0.5.3",
     "@react-three/drei": "^1.5.7",
+    "antd": "^4.8.0",
     "node-sass": "^4.14.1",
     "prettier": "^2.1.2",
     "react": "17.0.0-rc.1",

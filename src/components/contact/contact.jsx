@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./contact.scss";
 
 export const Contact = () => {
@@ -9,9 +10,9 @@ export const Contact = () => {
         We work for you by working with you. <br/>
         Client satisfaction and quality work are our top priorities.
       </p>
-      <button>
-        Get in touch
-      </button>
+      <a href='/contact'> Get in touch</a>
     </div>
   );
 };
+
+//<Button type="link" to="/contact"> Get in touch</Button>

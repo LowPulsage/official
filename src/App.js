@@ -8,6 +8,7 @@ import logo from "./img/logo-wtt-w.svg";
 
 import Scene1 from './animation/Scene1'
 import Scene3 from './animation/Scene3'
+import ContactPage from './components/contact-page/contact';
 
 function Loader() {
   const { progress } = useProgress()
@@ -79,10 +80,17 @@ function Body() {
 
 function App() {
   return (
-    <div className="App">
-      <Body />
-      <MainPage />
-    </div>
+    <Router>
+      <div className="App">
+        <Route exact path="/">
+          <Body />
+          <MainPage />
+        </Route>
+        <Route exact path="/contact">
+          <ContactPage />
+        </Route>
+      </div>
+    </Router>
   );
 }
 
