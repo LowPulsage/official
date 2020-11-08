@@ -1,12 +1,16 @@
-.Footer__wrapper {
+.Header__wrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
+    height: 12vh;
     background-color: rgb(236, 236, 236);
+    opacity: .7;
     color: black;
     padding: 50px 0;
     margin-top: auto;
+    position: absolute;
+    z-index: 1001;
+    width: 99.1vw;
     &:hover {
         background: rgb(230, 230, 230);
     }
