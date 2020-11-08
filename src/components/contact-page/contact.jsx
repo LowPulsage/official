@@ -24,7 +24,7 @@ const ContactPage = () => {
           </div>
         </div>
         <div className="Contact-page__form">
-          Send message
+          <span>Send message</span>
           <Form>
             <label>
               Name

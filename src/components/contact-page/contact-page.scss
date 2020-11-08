@@ -6,6 +6,7 @@
   font-weight: 500;
   font-size: 16px;
   margin-top: 15vh;
+  font-family: Lato, sans-serif;
   > .Contact-page__img {
     background-image: url(https://wtt-solutions.com/wp-content/uploads/2018/07/coworking-space-feature-image-1-e1532685924837.jpeg);
     background-repeat: no-repeat;
@@ -21,18 +22,23 @@
   .Contact-page__wrapper {
     display: flex;
     flex-direction: row;
+    padding: 90px 0;
     .Contact-page__info {
       flex: 1;
+      > :first-child {
+        font-size: 35px;
+      }
       > div {
         display: flex;
         flex-direction: column;
-        padding: 20px;
       }
     }
     .Contact-page__form {
       flex: 1;
       margin: 0 auto;
-      padding: 20px;
+      > span {
+        font-size: 35px;
+      }
       form {
         padding: 20px 0;
         label {
@@ -41,7 +47,14 @@
           padding-bottom: 12px;
           input, textarea {
               margin-top: 3px;
+              min-height: 45px;
           }
+          textarea {
+            min-height: 130px;
+          }
+        }
+        > button {
+          margin-top: 20px;
         }
       }
     }

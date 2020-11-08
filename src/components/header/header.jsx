@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.scss'
 import logo from '../../img/logo-wtt-w.svg'
-import { Button } from 'antd'
 import { Link } from 'react-router-dom'
 
 export const Header = () => {
